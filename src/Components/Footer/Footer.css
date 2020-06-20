@@ -1,0 +1,110 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.footer{
+    background-color:#343a40 ;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    margin-top:60px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer h4{
+    color: #e0a800;
+    text-transform: uppercase;
+    margin: 20px 0 ;
+
+}
+.footer-informacion{
+    flex: 22%;
+    padding: 0 40px;  
+}
+.footer-informacion p{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.footer-tours{
+    flex: 20%;
+    padding: 0 40px;
+}
+
+.footer-actividades{
+    flex: 20%;
+    padding: 0 40px;
+}
+.footer-contacto{
+    flex: 20%;
+    padding: 0 40px;
+    text-align: left;
+    color: whitesmoke;
+}
+.footer-contacto h4{
+    text-align: center;
+}
+.footer-contacto a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.footer-contacto a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-contacto .footer-social{
+    background-color:#282c30 ;
+    padding: 8px 20px;
+    margin: 0 35px;
+}
+
+.footer-social a{
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px 0;
+    left: 60px;
+}
+.icon-social{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.footer-link {
+    display: block;
+    text-decoration: none;
+    padding: 12px 0 ;
+    color: whitesmoke;
+}
+.footer-link:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-copy{
+    background-color:#282c30;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.img-footer{
+    width: 60px;
+    height: 60px;
+    margin: 15px 60px;
+}
+ .icon{
+     color:#e0a800;
+     margin: 0 10px;
+ }
+@media(max-width: 400px){
+    .footer{
+        flex-direction: column;
+        flex: 100%;
+    }
+    .img-footer{
+        display: inline-flex;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+}
