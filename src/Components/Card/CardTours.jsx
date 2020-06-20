@@ -10,7 +10,7 @@ export default class CardTours extends Component {
     this.state = {
       informacion: data.informacion,
       properties: data.properties,
-      property: data.properties[0]
+      property: data.properties[2]
     };
   }
   prevProp = () => {
