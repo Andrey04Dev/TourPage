@@ -11,8 +11,8 @@ const Card = ({ property }) => {
           <div className="card-body">
             <h5 className="card-title">{titulo}</h5>
             <p className="card-text">{info}</p>
-            <NavLink to={url} className="btn btn-primary">
-              Vamos a ver mas
+            <NavLink to={url}  target='_parent'className="btn btn-primary">
+              Leer mas....
             </NavLink>
           </div>
         </div>

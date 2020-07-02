@@ -3,23 +3,23 @@
 const data = {
     "informacion":{
         "titulo":"Tours",
-        "informacion":"Nuestros tours son gratificantes para grupos pequeños de amigos, familias, parejas, ademas cuenta con seguro en cada una de la actividades que realizan."
+        "informacion":"Pavones Tours se dedica a proporcionar los mejores tours, dar la mejor experencia posible a los clientes que vistan Pavones, con los mejores guías bilingues de la localidad."
     },
     "properties":[
         {
             "id":"00",
             "index":0,
             "src":require("../assets/img/Tours/horsebackriding.jpg"),
-            "titulo":"HorseBack Riding",
-            "info":"Aqui disfrutras de un tour a caballo por los alrededores de Pavones, podras apreciar muchos donde hay mucha flora y fauna. Ademas podra tomar fotos de animales  y plantas exoticos. Disfruta de la bellezas de Pavones y llevate un hermoso recuerdo de nuestros alrededores.",
+            "titulo":"Cabalgata",
+            "info":"En este tour de 2 a 5 horas es perfecto para los amantes de los caballos. El viaje es ideal tanto para principiantes como para expertos. Nuestro guía le llevará a lugares fascinantes. El viaje puede ser diseñado de acuerdo a qué tipo de viaje a caballo usted desea, desde senderos a través de bosques, hasta galopar a lo largo de la costa hacia playas vírgenes y a través de hermosas colinas.",
             "url":"/tours"
         },
         {
             "id":"01",
             "index":1,
-            "src": require("../assets/img/Tours/atv.jpg"),
-            "titulo":"ATV",
-            "info":"Aqui disfrutras de un tour a ATV",
+            "src": require("../assets/img/Tours/pesca.jpg"),
+            "titulo":"Pesca",
+            "info":"Ya sea que quiera ir de pesca con su familia o algunos amigos o bien con un grupo más grande, nosotros les ofrecemos lanchas con capacidad de 5 a 10 personas. Usted podrá encontrar tours de medio día y día completo lo que facilitará ir de pesca apenas lo pueda o quiera.Todos los tours de día completo incluyen almuerzo y bebidas, los tours de medio día ofrecen excelentes refrigerios y bebidas.",
             "url":"/tours"
         },
         {
@@ -27,40 +27,16 @@ const data = {
             "index":2,
             "src":require("../assets/img/Tours/surf.jpg"),
             "titulo":"Surfing",
-            "info":"Aqui disfrutras de un tour a surfing",
+            "info":"Este tour esta hecho tanto para personas aprendices como para experto ya que contamos con un instructor. El tour se podra llevar acabo en 3 localidades diferentes en Pavones, Punta Banco o MataPalo. El tour tiene un duración de media dia o todo dia y si gusta poner el tiempo tambien es permitido. Este tour tiene un cupo limitado y ofrece bebidas,dependiendo de la duracion.",
             "url":"/tours"
         },
         {
             "id":"03",
             "index":3,
-            "src":require("../assets/img/Tours/trekking.jpg"),
-            "titulo":"Trekking",
-            "info":"Aqui disfrutras de un tour a teeking",
-            "url":"/actividades"
-        },
-        {
-            "id":"04",
-            "index":4,
-            "src":require("../assets/img/Tours/sunset.jpg"),
-            "titulo":"Sunset",
-            "info":"Aqui disfrutras de un tour a Sunset",
-            "url":"/actividades"
-        },
-        {
-            "id":"05",
-            "index":5,
-            "src":require("../assets/img/Tours/matapaloTour.jpg"),
-            "titulo":"Matapalo Tour",
-            "info":"Aqui disfrutras de un tour a matapalo tour",
-            "url":"/actividades"
-        },
-        {
-            "id":"06",
-            "index":6,
-            "src":require("../assets/img/Tours/zancudo.jpg"),
-            "titulo":"Zancudo",
-            "info":"Aqui disfrutras de un tour a Zancudo",
-            "url":"/actividades"
+            "src":require("../assets/img/Tours/tourBote.jpg"),
+            "titulo":"Tour Bote",
+            "info":"Este tour podra apreciar la belleza d ela naturaleza del mar en los lugares de MataPalo, Burica y Zancudo. Como tambien podr'an ver delfines, ballenas o otros animales exoticos. Ademas conoceran los pueblos podra visitarlos uno a uno. Este tour esta hecho para familias, parejas o individual. Su duraci'on es de 5 a 6 horas.",
+            "url":"/tours"
         }
     ]
 }

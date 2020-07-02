@@ -10,8 +10,10 @@ const Toggle =()=>{
   btnHam.addEventListener('click',(()=>{
     nav.classList.toggle('collapse')
   }))
+  nav.addEventListener('click',()=>{
+    nav.classList.toggle('collapse')
+  })
 }
-
 const NavBar = () => {
 
   useEffect(()=>{

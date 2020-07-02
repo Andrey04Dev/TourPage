@@ -7,7 +7,6 @@ const Footer = () => {
     return (
         <Fragment>
         <div className='footer footer-responsive'>
-            <hola/>
             <div className ='row'>
                 <div className="footer-informacion">
                 <h4>Nombre de la Compañia o Logo</h4>

@@ -7,7 +7,6 @@ html,body{
     bottom: 0;
     position: relative;
     text-align: center;
-    margin-top:60px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -53,21 +52,15 @@ html,body{
     text-decoration: none;
 }
 
-.footer-contacto .footer-social{
+.footer-social {
     background-color:#282c30 ;
-    padding: 8px 20px;
-    margin: 0 35px;
-}
-
-.footer-social a{
+    padding: 4px 20px;
     display: inline-flex;
     justify-content: center;
-    margin: 5px 0;
-    left: 60px;
 }
 .icon-social{
     font-size: 25px;
-    margin-left: 20px;
+    margin: 0 20px;
 }
 .footer-link {
     display: block;
@@ -106,5 +99,14 @@ html,body{
         justify-content: center;
         width: 30px;
         height: 30px;
+    }
+    .footer-contacto,.footer-tours,.footer-informacion,.footer-actividades{
+        flex: 100%;
+        text-align: center;
+    }
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        margin: 20px 30px;
     }
 }
