@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import stImagenes from "../../data/imgCabalgata";
-import "../Carousel/Carousel.css";
+import "./Carousel.css";
 import Carousel from "./Carousel";
 
 //Iniciamos el contador de las Imagenes

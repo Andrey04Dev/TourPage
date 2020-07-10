@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./Card.css";
 
 const Card = ({ property }) => {
+
   const { index, src, titulo, info, url } = property;
   return (
         <div id={`card-${index}`} className="card">
@@ -11,7 +12,7 @@ const Card = ({ property }) => {
           <div className="card-body">
             <h5 className="card-title">{titulo}</h5>
             <p className="card-text">{info}</p>
-            <NavLink to={url}  target='_parent'className="btn btn-primary">
+            <NavLink to={url}  className="btn btn-primary" onClick={()=> window.scrollTo(0, 0)}>
               Leer mas....
             </NavLink>
           </div>

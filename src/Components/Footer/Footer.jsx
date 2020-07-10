@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ReactDOM from 'react-dom'
 import './Footer.css'
 
 const Footer = () => {
-    return (
+    return ReactDOM.createPortal(
         <Fragment>
         <div className='footer footer-responsive'>
             <div className ='row'>
@@ -45,7 +46,7 @@ const Footer = () => {
         <div className="footer-copy">
             <p>Copyright © 2020 Nombre de la Compañia – Pavones, Costa Rica. All rights reserved.</p>
         </div>
-        </Fragment>
+        </Fragment>,document.querySelector('#footer')
     )
 }
 

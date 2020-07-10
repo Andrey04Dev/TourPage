@@ -1,14 +1,13 @@
-html,body{
-    padding: 0;
-    margin: 0;
+*{
+    box-sizing: border-box;
 }
 .footer{
     background-color:#343a40 ;
     bottom: 0;
+    top: 100px;
+    margin-top: 50px;
     position: relative;
     text-align: center;
-    display: flex;
-    flex-flow: row wrap;
 }
 .footer h4{
     color: #e0a800;
@@ -75,6 +74,9 @@ html,body{
 
 .footer-copy{
     background-color:#282c30;
+    position: relative;
+    top: 100px;
+    bottom: 0;
     padding: 20px;
     text-align: center;
     color: whitesmoke;

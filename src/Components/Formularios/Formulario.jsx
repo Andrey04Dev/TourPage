@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import "./Formulario.css";
 
@@ -6,7 +6,7 @@ const Formulario = () => {
   const { register, errors, handleSubmit } = useForm();
   const [info, setInfo] = useState([]);
   const [checked, setChecked] = useState(false);
-  const [numeros] = useState([0,1, 2, 3, 4, 5]);
+  const [numeros] = useState(['',1, 2, 3, 4, 5]);
 
   const check = () => {
     let si = document.querySelector("#si");
@@ -18,17 +18,6 @@ const Formulario = () => {
       cantidad.readOnly = true;
   };
 
-  const select=()=>{
-       let select = document.formReservar.persona.value
-
-       if(select === 0){
-         select.focus()
-         console.log('no se ha cambaido ');
-         return false
-       }else{
-         return true
-       }
-  }
   const onSubmit = (data, e) => {
     console.log(data);
     setInfo([...info, data]);
@@ -39,13 +28,10 @@ const Formulario = () => {
     formu.classList.toggle("active-form");
   };
 
-  useEffect(() => {
-    select()
-  }, [])
   return (
     <div>
       <div className="container-center">
-        <h1>Te gustaría Reservar este tour</h1>
+        <h1>¿Te gustaría Reservar este tour?</h1>
         <button
           id="btn-mostrar"
           type="button"
@@ -55,7 +41,6 @@ const Formulario = () => {
           Haz click aqui!
         </button>
       </div>
-      <div className="">
         <form
           name="formReservar"
           action=""
@@ -135,7 +120,7 @@ const Formulario = () => {
                 id="persona"
                 className="form-control"
                 ref={register({
-                  required: { value: true, message: "Esccoja una opción" },
+                  required: { value:true, message: "Escoja una opción" },
                 })}
               >
                 {numeros.map((numero) => (
@@ -216,7 +201,6 @@ const Formulario = () => {
             Reservar
           </button>
         </form>
-      </div>
     </div>
   );
 };

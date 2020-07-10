@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import stImagenes from "../../data/imgCabalgata";
 import Carousel from "./Carousel";
-import "../Carousel/Carousel.css";
+import "./Carousel.css";
 
 let newIndex = 0;
 
@@ -11,7 +11,7 @@ export default class CarouselBosque extends Component {
 
     this.state = {
       imagenes: stImagenes.bosque,
-      imagen: stImagenes.bosque[0]
+      imagen: stImagenes.bosque[0],
     };
   }
   mostrar = () => {
@@ -24,7 +24,6 @@ export default class CarouselBosque extends Component {
   };
   componentWillMount() {
     this.mostrar();
-    console.log(stImagenes);
   }
 
   componentWillUnmount() {
@@ -33,14 +32,14 @@ export default class CarouselBosque extends Component {
   prevImagen = () => {
     newIndex = this.state.imagen.index - 1;
     this.setState({
-        imagen: stImagenes.bosque[newIndex],
+      imagen: stImagenes.bosque[newIndex],
     });
   };
 
   nextImagen = () => {
     newIndex = this.state.imagen.index + 1;
     this.setState({
-        imagen: stImagenes.bosque[newIndex],
+      imagen: stImagenes.bosque[newIndex],
     });
   };
 

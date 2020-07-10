@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import ReactDOM from 'react-dom'
 import './Video.css'
 
 const Video = (props) => {
-    return (
-        <div>
+    return ReactDOM.createPortal (
+        <Fragment>
             <video  className='video'  controls>
                 <source src={props.src} type={props.type}/>
             </video>
-        </div>
+        </Fragment>, document.querySelector('#header')
     )
 }
 

@@ -1,8 +1,7 @@
-import React from "react";
+import React, { Fragment,useEffect } from "react";
 import links from '../../data/links'
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { useEffect } from "react";
 
 const mostrarMenu = () => {
   let btn = document.querySelectorAll(".dropbtn");
@@ -15,20 +14,20 @@ const mostrarMenu = () => {
   }
 };
 
-const NavbarVertical = () => {
+const NavbarTours = () => {
   useEffect(() => {
     mostrarMenu();
   }, []);
   return (
-    <div className="">
+    <Fragment>
       <nav className="navbar-block">
         <div className="dropdown">
           <button type="button" className="dropbtn dropdown-toggle">
             Cabalgata
           </button>
           <div id="menu-despegable" className="drop-menu">
-            {links.cabalgata.map((link) => (
-              <Link className="link-menu" to={link.url}>
+            {links.cabalgata.map((link,id) => (
+              <Link key={id} className="link-menu" to={link.url}>
                 {link.name}
               </Link>
             ))}
@@ -39,8 +38,8 @@ const NavbarVertical = () => {
             Pesca
           </button>
           <div id="menu-despegable" className="drop-menu">
-            {links.pesca.map((link) => (
-              <Link className="link-menu" to={link.url}>
+            {links.pesca.map((link,id) => (
+              <Link key={id} className="link-menu" to={link.url}>
                 {link.name}
               </Link>
             ))}
@@ -51,8 +50,8 @@ const NavbarVertical = () => {
             Surfing
           </button>
           <div id="menu-despegable" className="drop-menu">
-            {links.surfing.map((link) => (
-              <Link className="link-menu" to={link.url}>
+            {links.surfing.map((link,id) => (
+              <Link key={id} className="link-menu" to={link.url}>
                 {link.name}
               </Link>
             ))}
@@ -63,16 +62,16 @@ const NavbarVertical = () => {
             Tour de Bote
           </button>
           <div id="menu-despegable" className="drop-menu">
-            {links.tourBote.map((link) => (
-              <Link className="link-menu" to={link.url}>
+            {links.tourBote.map((link,id) => (
+              <Link key={id} className="link-menu" to={link.url}>
                 {link.name}
               </Link>
             ))}
           </div>
         </div>
       </nav>
-    </div>
+      </Fragment>
   );
 };
 
-export default NavbarVertical;
+export default NavbarTours;

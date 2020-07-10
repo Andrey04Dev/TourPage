@@ -8,6 +8,7 @@ body {
   bottom: 0;
   left: 0;
 }
+
 .navbar-block {
   display: block;
   position: relative;
@@ -27,17 +28,29 @@ body {
   text-align: left;
   margin-left: 20px;
 }
-
+ /* .dropdown:hover .drop-menu{
+   display: inline-block;
+   
+ } */
 .dropbtn:focus{
   outline: none;
 }
 .drop-menu {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: transparent;
   width: 225px;
   z-index: 2;
+  transition: display 6s;
   
+}
+@keyframes example{
+  from{
+    height: 0;
+  }
+  to{
+    height: 300px;
+  }
 }
  
 .link-menu {
@@ -49,6 +62,8 @@ body {
   text-align: left;
   margin-left: 19px;
 }
+
+
 .link-menu:hover{
   background-color: whitesmoke;
   text-decoration: none;

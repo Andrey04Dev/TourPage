@@ -20,7 +20,7 @@ const links = {
       },
       {
         name: "Deportiva",
-        url: "/tours/presca-deportiva",
+        url: "/tours/pesca-deportiva",
       },
     ],
     surfing: [
