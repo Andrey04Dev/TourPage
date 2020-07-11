@@ -70,7 +70,7 @@ const Formulario = () => {
                   },
                 })}
               />
-              <span className="text-danger text-small d-block mb-2">
+              <span className="text-danger d-block mb-2">
                 {errors?.name?.message}
               </span>
               <label htmlFor="nPasaporte">
@@ -91,7 +91,7 @@ const Formulario = () => {
                   },
                 })}
               />
-              <span className="text-danger text-small d-block mb-2">
+              <span className="text-danger d-block mb-2">
                 {errors?.nPasaporte?.message}
               </span>
               <label htmlFor="telefono">Teléfono:</label>
@@ -109,7 +109,7 @@ const Formulario = () => {
                   },
                 })}
               />
-              <span className="text-danger text-small d-block mb-2">
+              <span className="text-danger d-block mb-2">
                 {errors?.telefono?.message}
               </span>
             </div>
@@ -129,7 +129,7 @@ const Formulario = () => {
                   </option>
                 ))}
               </select>
-              <span className="text-danger text-small d-block">
+              <span className="text-danger d-block">
                 {errors?.persona?.message}
               </span>
               <label htmlFor="fecha">Fecha del Tour</label>
@@ -145,7 +145,7 @@ const Formulario = () => {
                   },
                 })}
               />
-              <span className="text-danger text-small d-block mb-2">
+              <span className="text-danger d-block mb-2">
                 {errors?.fecha?.message}
               </span>
               <label htmlFor="" className="form-check-label">
@@ -167,7 +167,7 @@ const Formulario = () => {
                 <label htmlFor="si" className="form-check-label mr-3">
                   Sí
                 </label>
-                <span className="text-danger text-small d-block mr-2">
+                <span className="text-danger d-block mr-2">
                   {errors?.si?.message}
                 </span>
               </div>
@@ -192,7 +192,7 @@ const Formulario = () => {
                   
                 })}
               />
-              <span className="text-danger text-small d-block">
+              <span className="text-danger d-block">
                 {errors?.cantidad?.message}
               </span>
             </div>

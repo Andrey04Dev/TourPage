@@ -1,5 +1,7 @@
-*,*::before,*::after{
- box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 html,
 body {
@@ -17,7 +19,7 @@ body {
   background-color: #f7f7f7;
   right: 14px;
 }
- .dropbtn {
+.dropbtn {
   background-color: transparent;
   padding: 10px;
   cursor: pointer;
@@ -28,11 +30,11 @@ body {
   text-align: left;
   margin-left: 20px;
 }
- /* .dropdown:hover .drop-menu{
-   display: inline-block;
-   
- } */
-.dropbtn:focus{
+/* Cambie aqui */
+.dropdown:hover .drop-menu {
+  display: inline-block;
+}
+.dropbtn:focus {
   outline: none;
 }
 .drop-menu {
@@ -42,17 +44,16 @@ body {
   width: 225px;
   z-index: 2;
   transition: display 6s;
-  
 }
-@keyframes example{
-  from{
+@keyframes example {
+  from {
     height: 0;
   }
-  to{
+  to {
     height: 300px;
   }
 }
- 
+
 .link-menu {
   color: black;
   padding: 8px 10px;
@@ -63,15 +64,14 @@ body {
   margin-left: 19px;
 }
 
-
-.link-menu:hover{
+.link-menu:hover {
   background-color: whitesmoke;
   text-decoration: none;
   color: black;
 }
 
-.link-menu:focus, .link-menu:active {
-  border-left: 5px solid #61dafb ;
+.link-menu:hover {
+  border-left: 5px solid #61dafb;
   height: auto;
   font-weight: bold;
 }

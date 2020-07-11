@@ -72,7 +72,7 @@ const FormularioLogin = (props) => {
                     })}
                   />
                   <span
-                    className="text-danger text-small d-block mb-2"
+                    className="text-danger d-block mb-2"
                   >
                     {errors?.usuario?.message}
                   </span>
@@ -88,7 +88,7 @@ const FormularioLogin = (props) => {
                     })}
                   />
                   <span
-                    className="text-danger text-small d-block mb-2"
+                    className="text-danger d-block mb-2"
                   >
                     {errors?.password?.message}
                   </span>

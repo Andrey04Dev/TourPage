@@ -52,7 +52,7 @@ const NavBar = () => {
         <ul className=" navbar-nav  mr-auot ml-auto">
           <li className='nav-item'>
             <NavLink className="nav-link" to="/">
-              Home
+              Inicio
             </NavLink>
           </li>
           <li className='nav-item'>
