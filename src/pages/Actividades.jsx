@@ -1,9 +1,12 @@
 import React from 'react'
+import NavBarActvidades from '../Components/NavBar/NavBarActvidades'
+import RouterActividades from '../routers/RouterActividades'
 
 const Actividades = () => {
     return (
         <div>
-            <h1>Hola actividades</h1>
+            <NavBarActvidades/>
+            <RouterActividades/>
         </div>
     )
 }

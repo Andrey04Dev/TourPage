@@ -9,18 +9,10 @@ const RouterMain = () => {
     return (
         <div>
             <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/tours">
-          <Tours />
-        </Route>
-        <Route path="/contactanos">
-          <Contactanos />
-        </Route>
-        <Route path="/actividades">
-          <Actividades />
-        </Route>
+        <Route exact path="/" component={Home}/>
+        <Route path="/tours"component={Tours}/>
+        <Route path="/contactanos"component={Contactanos}/>
+        <Route path="/actividades"component={Actividades}/>
       </Switch>
         </div>
     )

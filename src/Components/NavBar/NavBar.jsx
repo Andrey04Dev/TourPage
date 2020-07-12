@@ -49,24 +49,24 @@ const NavBar = () => {
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse text-center">
-        <ul className=" navbar-nav  mr-auot ml-auto">
+        <ul className=" navbar-nav ml-auto">
           <li className='nav-item'>
             <NavLink className="nav-link" to="/">
               Inicio
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink className="nav-link text-white" to="/Tours">
+            <NavLink className="nav-link text-white" to="/tours">
               Tours
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink className="nav-link text-white" to="/Actividades">
+            <NavLink className="nav-link text-white" to="/actividades">
               Actividades
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink className="nav-link text-white" to="/Contactanos">
+            <NavLink className="nav-link text-white" to="/contactanos">
               Contactanos
             </NavLink>
           </li>

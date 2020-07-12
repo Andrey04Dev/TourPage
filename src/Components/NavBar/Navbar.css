@@ -68,9 +68,6 @@ body {
   background-color: whitesmoke;
   text-decoration: none;
   color: black;
-}
-
-.link-menu:hover {
   border-left: 5px solid #61dafb;
   height: auto;
   font-weight: bold;
@@ -82,4 +79,43 @@ body {
     margin: 10px 0;
     text-align: center;
   }
+}
+.navbar-act {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 150px;
+}
+.link-act-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  text-decoration: none;
+  transition: flex-grow 1s ease;
+  position: relative;
+}
+.link-act-li:hover {
+  flex-grow: 3;
+}
+.link-act-li:hover .link-act {
+  transform: scale(2, 2);
+}
+.link-act {
+  text-decoration: none;
+  position: relative;
+  color: black;
+  transition: transform 1s ease;
+}
+
+.link-act:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.img-act {
+  width: 30px;
+  height: 30px;
+  position: relative;
 }

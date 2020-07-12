@@ -3,20 +3,20 @@ import links from '../../data/links'
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-const mostrarMenu = () => {
-  let btn = document.querySelectorAll(".dropbtn");
-  let dropMenu = document.querySelectorAll("#menu-despegable");
+// const mostrarMenu = () => {
+//   let btn = document.querySelectorAll(".dropbtn");
+//   let dropMenu = document.querySelectorAll("#menu-despegable");
 
-  for (let i = 0; i < btn.length; i++) {
-    btn[i].addEventListener("click", () => {
-      dropMenu[i].classList.toggle("drop-menu");
-    });
-  }
-};
+//   for (let i = 0; i < btn.length; i++) {
+//     btn[i].addEventListener("click", () => {
+//       dropMenu[i].classList.toggle("drop-menu");
+//     });
+//   }
+// };
 
 const NavbarTours = () => {
   useEffect(() => {
-    mostrarMenu();
+    // mostrarMenu();
   }, []);
   return (
     <Fragment>

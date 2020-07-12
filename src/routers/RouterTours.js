@@ -15,36 +15,16 @@ const RouterTours = () => {
     return (
         <Fragment>
             <Switch>
-          <Route path='/tours/cabalgata-santaClara'>
-              <CabalgataSanta />
-          </Route>
-          <Route path='/tours/cabalgata-bosque'>
-              <CabalgataBosque />
-          </Route>
-          <Route path='/tours/cabalgata-playa'>
-              <CabalgataPlaya />
-          </Route>
-          <Route path='/tours/pesca-artesanal'>
-              <PescaArtesanal />
-          </Route>
-          <Route path='/tours/pesca-deportiva'>
-              <PescaDeportiva />
-          </Route>
-          <Route path='/tours/surfing-instructoria'>
-              <SurfInstructiva />
-          </Route>
-          <Route path='/tours/surfing-matapalo'>
-              <SurfMatapalo/>
-          </Route>
-          <Route path='/tours/tour-bote-mataPalo'>
-              <TourMataPalo/>
-          </Route>
-          <Route path='/tours/tour-bote-puntaBurica'>
-              <TourPuntaBurica/>
-          </Route>
-          <Route path='/tours/tour-bote-zancudo'>
-              <TourZancudo/>
-          </Route>
+          <Route path='/tours/cabalgata-santaClara'component={CabalgataSanta}/>
+          <Route path='/tours/cabalgata-bosque'component={CabalgataBosque}/>
+          <Route path='/tours/cabalgata-playa'component={CabalgataPlaya}/>
+          <Route path='/tours/pesca-artesanal'component={PescaArtesanal}/>
+          <Route path='/tours/pesca-deportiva'component={PescaDeportiva}/>
+          <Route path='/tours/surfing-instructoria'component={SurfInstructiva}/>
+          <Route path='/tours/surfing-matapalo'component={SurfMatapalo}/>
+          <Route path='/tours/tour-bote-mataPalo'component={TourMataPalo}/>
+          <Route path='/tours/tour-bote-puntaBurica'component={TourPuntaBurica}/>
+          <Route path='/tours/tour-bote-zancudo'component={TourZancudo}/>
           <Route path='/tours'>
               <h3>
                 Necesito información que queiren agregar aqui en esta

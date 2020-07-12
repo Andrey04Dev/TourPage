@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Carousel = props => {
   return (
     <header className="slider-container">
-        <div id="slide-0" className="slide fade-in">
+        <div  className="slide">
             <img className='slide-img'src={props.src} alt={props.alt} />
         </div>
         <div className="arrow-wrapper">
