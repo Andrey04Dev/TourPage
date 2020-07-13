@@ -38,7 +38,7 @@ body {
   
   flex: 1;
   min-width: 200px;
-  box-shadow: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   background-color: white;
   border-color: white;
   transition: opacity 300ms linear, border-color 300ms linear,
@@ -109,6 +109,35 @@ height: 150px;
 }
 .btn-right:focus{
   outline: 0 none;
+}
+
+.container-fluid{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+@media (max-width: 350px){
+  html,body{
+    font-size: 12px;
+  }
+  .row{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .card{
+    height: 180px;
+  }
+  .card:hover{
+    height: 450px;
+  }
+  .card:hover .card-text, .card:hover .btn-primary, .card:hover .card-title{
+    visibility: visible;
+  }
+  .card-text, .btn-primary, .card-title{
+    visibility: hidden;
+  }
+
+  
 }
 /* .box-card:hover {
   background-color: black;

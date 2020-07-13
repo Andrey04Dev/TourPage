@@ -51,7 +51,7 @@ export default class CardActividades extends Component {
             <button
               className="btn-right"
               onClick={() => this.nextProp()}
-              disabled={property.index === data.properties.length - 1}
+              disabled={property.index === data.properties.length-1}
             >
               <FontAwesomeIcon icon={["fas", "chevron-right"]} />
             </button>
@@ -61,8 +61,8 @@ export default class CardActividades extends Component {
               className="container-position"
               style={{
                 transform: `translateX(-${
-                  property.index * (44 / properties.length - 5.7)
-                }%)`,
+                  property.index * properties.length
+                }%)`
               }}
             >
               {properties.map((property) => (

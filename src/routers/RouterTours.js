@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import CabalgataSanta from '../pages/Tour/CabalgataSanta'
 import CabalgataBosque from '../pages/Tour/CabalgataBosque'
@@ -13,7 +13,7 @@ import TourZancudo from '../pages/Tour/TourZancudo'
 
 const RouterTours = () => {
     return (
-        <Fragment>
+        <div className='col-10'>
             <Switch>
           <Route path='/tours/cabalgata-santaClara'component={CabalgataSanta}/>
           <Route path='/tours/cabalgata-bosque'component={CabalgataBosque}/>
@@ -32,7 +32,7 @@ const RouterTours = () => {
               </h3>
           </Route>
         </Switch>
-        </Fragment>
+        </div>
     )
 }
 

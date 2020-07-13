@@ -20,6 +20,7 @@ const NavbarTours = () => {
   }, []);
   return (
     <Fragment>
+      <div className = 'col-2'>
       <nav className="navbar-block">
         <div className="dropdown">
           <button type="button" className="dropbtn dropdown-toggle">
@@ -70,6 +71,7 @@ const NavbarTours = () => {
           </div>
         </div>
       </nav>
+      </div>
       </Fragment>
   );
 };
