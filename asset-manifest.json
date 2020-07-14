@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TourPage/static/css/main.bd535098.chunk.css",
+    "main.css": "/TourPage/static/css/main.ebdd8e90.chunk.css",
     "main.js": "/TourPage/static/js/main.0e01afb6.chunk.js",
     "main.js.map": "/TourPage/static/js/main.0e01afb6.chunk.js.map",
     "runtime-main.js": "/TourPage/static/js/runtime-main.a385860d.js",
@@ -9,10 +9,10 @@
     "static/js/2.4e0beaf9.chunk.js": "/TourPage/static/js/2.4e0beaf9.chunk.js",
     "static/js/2.4e0beaf9.chunk.js.map": "/TourPage/static/js/2.4e0beaf9.chunk.js.map",
     "index.html": "/TourPage/index.html",
-    "precache-manifest.f8993fc42430b5097689c316b9543ad2.js": "/TourPage/precache-manifest.f8993fc42430b5097689c316b9543ad2.js",
+    "precache-manifest.9e9fb21bff62253fb74bb96e1e59f81e.js": "/TourPage/precache-manifest.9e9fb21bff62253fb74bb96e1e59f81e.js",
     "service-worker.js": "/TourPage/service-worker.js",
     "static/css/2.4393531f.chunk.css.map": "/TourPage/static/css/2.4393531f.chunk.css.map",
-    "static/css/main.bd535098.chunk.css.map": "/TourPage/static/css/main.bd535098.chunk.css.map",
+    "static/css/main.ebdd8e90.chunk.css.map": "/TourPage/static/css/main.ebdd8e90.chunk.css.map",
     "static/js/2.4e0beaf9.chunk.js.LICENSE.txt": "/TourPage/static/js/2.4e0beaf9.chunk.js.LICENSE.txt",
     "static/media/Pavones.mp4": "/TourPage/static/media/Pavones.18dfd7f5.mp4",
     "static/media/artesanal1.jpeg": "/TourPage/static/media/artesanal1.a677d77d.jpeg",
@@ -92,7 +92,7 @@
     "static/js/runtime-main.a385860d.js",
     "static/css/2.4393531f.chunk.css",
     "static/js/2.4e0beaf9.chunk.js",
-    "static/css/main.bd535098.chunk.css",
+    "static/css/main.ebdd8e90.chunk.css",
     "static/js/main.0e01afb6.chunk.js"
   ]
 }
