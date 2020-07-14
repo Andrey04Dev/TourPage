@@ -27,7 +27,6 @@ body {
 .container-position .card {
   flex: 1;
   min-width: 200px;
-  margin-right: 20px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   background-color: white;
   border-color: white;
@@ -125,6 +124,9 @@ height: 150px;
   }
   .container-slider:hover,.card:hover{
     height: 450px;
+  }
+  .container-position .card{
+    margin-right: 20px;
   }
   .card:hover .card-text, .card:hover .btn-primary {
     visibility: visible;
