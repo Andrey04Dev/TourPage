@@ -44,22 +44,6 @@ const data = {
             "info":"Aqui disfrutras de comida típicas de la zona, aprendaras como hacerlas y tambien recibiras un pequeña introducción de cada platillo, tambien se le brindaremos los utensilios necesarios que usted va necesitar para realizar estas deliciosas comida. Seran guiados por los mejores instructores de cocina.",
             "url":"/actividades"
         }
-        // {
-        //     "id":"05",
-        //     "index":5,
-        //     "src":require("../assets/img/matapaloTour.jpg"),
-        //     "titulo":"Matapalo Tour",
-        //     "info":"Aqui disfrutras de un tour a matapalo tour",
-        //     "url":"/actividades"
-        // }
-        // {
-        //     "id":"06",
-        //     "index":6,
-        //     "src":require("../assets/img/zancudo.jpg"),
-        //     "titulo":"Zancudo",
-        //     "info":"Aqui disfrutras de un tour a Zancudo",
-        //     "url":"/actividades"
-        // }
     ]
 }
 

@@ -11,7 +11,7 @@ export default class CardActividades extends Component {
     this.state = {
       informacion: data.informacion,
       properties: data.properties,
-      property: data.properties[1],
+      property: data.properties[0],
     };
   }
 
@@ -61,7 +61,7 @@ export default class CardActividades extends Component {
               className="container-position"
               style={{
                 transform: `translateX(-${
-                  property.index * properties.length
+                  property.index *(105/ properties.length-1)
                 }%)`
               }}
             >
