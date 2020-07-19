@@ -7,6 +7,7 @@ const Actividades = () => {
         <div>
             <NavBarActvidades/>
             <RouterActividades/>
+            <p>Talvez aqui podria ir un resumen de la actividades.</p>
         </div>
     )
 }

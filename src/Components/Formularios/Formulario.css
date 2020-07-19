@@ -26,3 +26,7 @@
   display: block;
   transition: display ease 3s;
 }
+
+
+@media(max-width: 350px){
+}

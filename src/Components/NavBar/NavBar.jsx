@@ -5,6 +5,7 @@ import FormularioLogin from "../Formularios/FormularioLogin";
 import { useState } from "react";
 import FormularioRegistrarse from "../Formularios/FormularioRegistrarse";
 import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 //Funcion para que boton Hamburguer de NavBar
@@ -43,30 +44,32 @@ const NavBar = () => {
   })
   return ReactDOM.createPortal (
     <Fragment>
-      <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <NavLink className="navbar-brand" to='/'>Navbar</NavLink>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <NavLink className="navbar-brand" to='/'>Logo de la Empresa</NavLink>
       <button className="navbar-toggler" type="button">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse text-center">
         <ul className=" navbar-nav ml-auto">
           <li className='nav-item'>
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link" to="/"><FontAwesomeIcon className='mr-2' icon ={['fas','home']}/>
               Inicio
             </NavLink>
           </li>
           <li className='nav-item'>
             <NavLink className="nav-link text-white" to="/tours">
+              <FontAwesomeIcon className='mr-2' icon={['fas','hiking']}/>
               Tours
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink className="nav-link text-white" to="/actividades">
+            <NavLink className="nav-link text-white" to="/actividades"><FontAwesomeIcon className='mr-2' icon ={['fas','clipboard-list']}/>
               Actividades
             </NavLink>
           </li>
           <li className='nav-item'>
             <NavLink className="nav-link text-white" to="/contactanos">
+              <FontAwesomeIcon className='mr-2' icon={['fas','phone-alt']}/>
               Contactanos
             </NavLink>
           </li>

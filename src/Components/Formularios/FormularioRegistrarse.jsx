@@ -14,7 +14,6 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "90%",
     background: "transparent",
     border: "none",
     borderRadius: "10px",
@@ -56,6 +55,7 @@ const FormularioRegistrarse = (props) => {
       style={customStyles}
     >
       <div className="container-fluid">
+      <div className="modal-dialog-scrollable">
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">
@@ -69,7 +69,7 @@ const FormularioRegistrarse = (props) => {
           <div className="modal-body">
             <form action="" className="" onSubmit={handleSubmit(onSubmit)}>
               <div className="row">
-                <div className="col-6">
+                <div className="col-sm-6">
                   <label htmlFor="file">Selecione su foto de perfil:</label>
                   <input
                     type="file"
@@ -135,7 +135,7 @@ const FormularioRegistrarse = (props) => {
                     {errors?.telefono?.message}
                   </span>
                 </div>
-                <div className="col-6">
+                <div className="col-sm-6">
                   <label htmlFor="email">Correo:</label>
                   <input
                     type="text"
@@ -209,6 +209,7 @@ const FormularioRegistrarse = (props) => {
               </div>
             </form>
           </div>
+        </div>
         </div>
       </div>
     </Modal>,

@@ -20,7 +20,6 @@ export default class CardActividades extends Component {
     this.setState({
       property: data.properties[newIndex],
     });
-    console.log(newIndex);
   }
 
   nextProp() {
@@ -28,7 +27,6 @@ export default class CardActividades extends Component {
     this.setState({
       property: data.properties[newIndex],
     });
-    console.log(newIndex);
   }
 
   render() {

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useForm } from "react-hook-form";
 import Modal from 'react-modal'
+import './Formulario.css'
 //Estilos de modal
 const customStyles = {
   content: {
@@ -12,7 +13,6 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "50%",
     background: "transparent",
     border: "none",
     borderRadius: "10px",
@@ -41,6 +41,7 @@ const FormularioLogin = (props) => {
   });
   return ReactDOM.createPortal(
     <Modal
+    id='modalLogin'
       isOpen={props.mostrar}
       onRequestClose={props.cerrar}
       style={customStyles}

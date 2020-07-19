@@ -1,114 +1,156 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.footer{
-    background-color:#343a40 ;
-    bottom: 0;
-    top: 100px;
-    margin-top: 50px;
-    position: relative;
-    text-align: center;
+.footer {
+  background-color: #343a40;
+  bottom: 0;
+  top: 100px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
 }
-.footer h4{
-    color: #e0a800;
-    text-transform: uppercase;
-    margin: 20px 0 ;
-
-}
-.footer-informacion{
-    flex: 22%;
-    padding: 0 40px;  
-}
-.footer-informacion p{
-    color: whitesmoke;
-    text-align: justify;
+.footer h5 {
+  color: #e0a800;
+  text-transform: uppercase;
 }
 
-.footer-tours{
-    flex: 20%;
-    padding: 0 40px;
+.box-titulo {
+  border: 2px solid transparent;
+  background-color: #343a40;
+  flex: 20%;
+  padding: 20px 40px;
+}
+.footer-informacion {
+  flex:20%;
+  padding: 0 40px;
+}
+.footer-informacion p {
+  color: whitesmoke;
+  text-align: left;
 }
 
-.footer-actividades{
-    flex: 20%;
-    padding: 0 40px;
+.footer-tours {
+  flex: 20%;
+  padding: 0 40px;
 }
-.footer-contacto{
-    flex: 20%;
-    padding: 0 40px;
-    text-align: left;
-    color: whitesmoke;
+
+.footer-actividades {
+  flex: 20%;
+  padding: 0 40px;
 }
-.footer-contacto h4{
-    text-align: center;
+.footer-contacto {
+  flex: 20%;
+  padding: 0 40px;
+  text-align: left;
+  color: whitesmoke;
 }
-.footer-contacto a{
-    color: whitesmoke;
-    text-decoration: none;
+.footer-contacto h5 {
+  text-align: center;
 }
-.footer-contacto a:hover{
-    color: gray;
-    text-decoration: none;
+.footer-contacto a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.footer-contacto a:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 .footer-social {
-    background-color:#282c30 ;
-    padding: 4px 20px;
-    display: inline-flex;
-    justify-content: center;
+  background-color: #282c30;
+  padding: 4px 20px;
+  display: inline-flex;
+  justify-content: center;
 }
-.icon-social{
-    font-size: 25px;
-    margin: 0 20px;
+.icon-social {
+  font-size: 25px;
+  margin: 0 20px;
 }
 .footer-link {
-    display: block;
-    text-decoration: none;
-    padding: 12px 0 ;
-    color: whitesmoke;
+  display: block;
+  text-decoration: none;
+  padding: 12px 0;
+  color: whitesmoke;
 }
-.footer-link:hover{
-    color: gray;
-    text-decoration: none;
+.footer-link:hover {
+  color: gray;
+  text-decoration: none;
 }
 
-.footer-copy{
-    background-color:#282c30;
-    position: relative;
-    top: 100px;
-    bottom: 0;
-    padding: 20px;
+.footer-copy {
+  background-color: #282c30;
+  position: relative;
+  top: 100px;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.img-footer {
+  width: 60px;
+  height: 60px;
+  margin: 15px 60px;
+}
+.icon {
+  color: #e0a800;
+  margin: 0 auto;
+}
+
+.icon-arrow{
+  display: none;
+  float: right;
+}
+@media  only  screen and (min-width: 320px) and (max-width:480px) {
+   .box-titulo {
+    border: 2px solid transparent;
+    color: whitesmoke;
+    padding: 8px 2px;
+    border: 1px solid #343a40;
+  }
+  .footer {
+    flex-direction: column;
+    flex: 100%;
+  }
+  .img-footer {
+    display: inline-flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+  .icon-arrow{
+    display: flex;
+    float: right;
+  }
+  .footer-contacto,
+  .footer-tours,
+  .footer-informacion,
+  .footer-actividades {
+    flex: 100%;
     text-align: center;
+    margin-bottom: -10px;
+    border: 1px solid #343a40;
+  }
+  .footer-contacto h5,
+  .footer-tours h5,
+  .footer-informacion h5,
+  .footer-actividades  h5{
+    font-size: 12px;
     color: whitesmoke;
-}
-
-.img-footer{
-    width: 60px;
-    height: 60px;
-    margin: 15px 60px;
-}
- .icon{
-     color:#e0a800;
-     margin: 0 10px;
- }
-@media(max-width: 400px){
-    .footer{
-        flex-direction: column;
-        flex: 100%;
-    }
-    .img-footer{
-        display: inline-flex;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-    }
-    .footer-contacto,.footer-tours,.footer-informacion,.footer-actividades{
-        flex: 100%;
-        text-align: center;
-    }
-    .footer-social{
-        display: flex;
-        justify-content: center;
-        margin: 20px 30px;
-    }
+  }
+  .footer-informacion .footer-body,
+  .footer-tours .footer-body,
+  .footer-actividades .footer-body,
+  .footer-contacto .footer-body {
+    display: none;
+  }
+  .footer-informacion:hover .footer-body,.footer-contacto:hover .footer-body,.footer-tours:hover .footer-body,.footer-actividades:hover .footer-body{
+    display: block;
+    box-sizing: border-box;
+  }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px;
+  }
 }
