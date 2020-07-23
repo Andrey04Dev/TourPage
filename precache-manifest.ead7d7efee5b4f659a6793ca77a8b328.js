@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3aa3e056d07d32c98b336fa7f73aa45d",
+    "revision": "5f529a245ff311b452d2c77dde55e605",
     "url": "/TourPage/index.html"
   },
   {
-    "revision": "3bd98fd65d0b30703e25",
+    "revision": "398d81e4cbbcb850114a",
     "url": "/TourPage/static/css/2.4393531f.chunk.css"
   },
   {
-    "revision": "589b4fc8f62790b23be3",
-    "url": "/TourPage/static/css/main.63f2d667.chunk.css"
+    "revision": "7bcf127d23c5e3729ed6",
+    "url": "/TourPage/static/css/main.7cc7657b.chunk.css"
   },
   {
-    "revision": "3bd98fd65d0b30703e25",
-    "url": "/TourPage/static/js/2.45378996.chunk.js"
+    "revision": "398d81e4cbbcb850114a",
+    "url": "/TourPage/static/js/2.18016bd9.chunk.js"
   },
   {
     "revision": "9690d358bfa0b906346a6a94f4900583",
-    "url": "/TourPage/static/js/2.45378996.chunk.js.LICENSE.txt"
+    "url": "/TourPage/static/js/2.18016bd9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "589b4fc8f62790b23be3",
-    "url": "/TourPage/static/js/main.c376c0e8.chunk.js"
+    "revision": "7bcf127d23c5e3729ed6",
+    "url": "/TourPage/static/js/main.0c07abcc.chunk.js"
   },
   {
     "revision": "e4b36c88e42114b9626b",
