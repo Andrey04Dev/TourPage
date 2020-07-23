@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from "react";
 import Encabezados from "../Encabezado/Encabezados";
 import data from "../../data/cardTour";
-import Card from "./Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Card from "./Card";
 
 export default class CardTours extends Component {
   constructor(props) {
@@ -26,7 +26,6 @@ export default class CardTours extends Component {
       property: data.properties[newIndex],
     });
   };
-  
   render() {
     const { property, properties, informacion} = this.state;
     
@@ -60,7 +59,7 @@ export default class CardTours extends Component {
               }}
             >
               {properties.map((property) => (
-                <Card key={property.id}  property={property} />
+                <Card key={property.id} property={property} />
               ))}
           </div>
           </div>

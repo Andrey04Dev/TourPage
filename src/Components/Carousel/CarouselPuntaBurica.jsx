@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Carousel from './Carousel';
 import stImagenes from '../../data/imgCabalgata'
-import './Carousel.css'
 
 let newIndex = 0
 export default class CarouselPuntaBurica extends Component {

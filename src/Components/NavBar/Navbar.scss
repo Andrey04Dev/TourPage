@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  bottom: 0;
+  left: 0;
+}
+  //Menu de Tours Inicio
+.container-nav {
+  display: flex;
+}
+
+.navbar-block {
+  flex: 20%;
+  position: relative;
+  height: 100%;
+  .dropdown {
+    .drop-menu {
+      display: none;
+      background-color: transparent;
+      z-index: 2;
+
+      .link-menu {
+        color: black;
+        padding: 8px 10px;
+        text-decoration: none;
+        display: block;
+        position: relative;
+        text-align: left;
+        margin-left: 19px;
+
+        &:hover {
+          background-color: whitesmoke;
+          text-decoration: none;
+          color: black;
+          border-left: 5px solid #61dafb;
+          height: auto;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .dropbtn {
+      background-color: transparent;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      width: 100%;
+      font-weight: bold;
+      position: relative;
+      text-align: left;
+      margin-left: 10px;
+      &:focus {
+        outline: none;
+      }
+    }
+    &:hover .drop-menu {
+      display: flex;
+      flex-flow: column wrap;
+    }
+  }
+}
+  //Menu de Tours FIN
+
+  //Menu de actividades INICIO
+.navbar-act {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 150px;
+  .link-act-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    text-decoration: none;
+    transition: flex-grow 1s ease;
+    position: relative;
+    &:hover{
+      flex-grow: 3;
+    }
+    &:hover .link-act{
+      transform: scale(2, 2);
+    }
+    .link-act {
+      text-decoration: none;
+      position: relative;
+      color: black;
+      transition: transform 1s ease;
+      &:hover{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      }
+      .img-act {
+        width: 30px;
+        height: 30px;
+        position: relative;
+      }
+    }
+  }
+}
+//Menu de Actividades FINAL
+@media  only screen and (min-width: 320px) and (max-width: 480px) {
+  //Menu de Tours INICIO
+.container-nav{
+  display: flex;
+  flex-direction: column;
+  .navbar-block{
+    background-color: #f3f3f3;
+    flex: 100%;
+    .dropdown {
+      .drop-menu{
+        .link-menu{
+          text-align: center;
+           &:hover {
+            background-color: whitesmoke;
+            text-decoration: none;
+            color: black;
+            border-left: 5px solid transparent;
+            height: auto;
+            font-weight: bold;
+          }
+        }
+      }
+      .dropbtn{
+        text-align: center;
+      }
+    }
+  }
+}
+  //Menu de Tours FIN
+
+  //Menu de Actividades INICIO
+.navbar-act{
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  background-color: #f3f3f3;
+  .link-act-li{
+    transition: none;
+    &:hover{
+      flex-grow: none;
+    }
+    &:hover .link-act{
+      transform: none;
+    }
+    .link-act{
+      transition: none;
+      &:hover{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      }
+      .img-act {
+        max-width: 15px;
+        max-height: 15px;
+        position: relative;
+      }
+    }
+  }
+}
+  //Menu de Actividades FIN
+}
+
+
+
+
+
+
+

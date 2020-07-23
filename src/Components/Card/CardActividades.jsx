@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from "../../data/cardActividades";
 import Encabezados from "../Encabezado/Encabezados";
 import Card from "./Card";
-import "../Card/Card.css";
+import './Card.scss'
 
 export default class CardActividades extends Component {
   constructor(props) {
@@ -49,7 +49,7 @@ export default class CardActividades extends Component {
             <button
               className="btn-right"
               onClick={() => this.nextProp()}
-              disabled={property.index === data.properties.length-1}
+              disabled={property.index === data.properties.length-2}
             >
               <FontAwesomeIcon icon={["fas", "chevron-right"]} />
             </button>

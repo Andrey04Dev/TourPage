@@ -1,7 +1,8 @@
-import React, { Fragment,useEffect } from "react";
-import links from '../../data/links'
+import React, { useEffect } from "react";
+import links from "../../data/links";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.scss";
+import RouterTours from "../../routers/RouterTours";
 
 // const mostrarMenu = () => {
 //   let btn = document.querySelectorAll(".dropbtn");
@@ -19,60 +20,59 @@ const NavbarTours = () => {
     // mostrarMenu();
   }, []);
   return (
-    <Fragment>
-      <div className = 'col-2'>
-      <nav className="navbar-block">
-        <div className="dropdown">
-          <button type="button" className="dropbtn dropdown-toggle">
-            Cabalgata
-          </button>
-          <div id="menu-despegable" className="drop-menu">
-            {links.cabalgata.map((link,id) => (
-              <Link key={id} className="link-menu" to={link.url}>
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className="dropdown">
-          <button type="button" className="dropbtn dropdown-toggle">
-            Pesca
-          </button>
-          <div id="menu-despegable" className="drop-menu">
-            {links.pesca.map((link,id) => (
-              <Link key={id} className="link-menu" to={link.url}>
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className="dropdown">
-          <button type="button" className="dropbtn dropdown-toggle">
-            Surfing
-          </button>
-          <div id="menu-despegable" className="drop-menu">
-            {links.surfing.map((link,id) => (
-              <Link key={id} className="link-menu" to={link.url}>
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className="dropdown">
-          <button type="button" className="dropbtn dropdown-toggle">
-            Tour de Bote
-          </button>
-          <div id="menu-despegable" className="drop-menu">
-            {links.tourBote.map((link,id) => (
-              <Link key={id} className="link-menu" to={link.url}>
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </nav>
-      </div>
-      </Fragment>
+    <div className="container-nav">
+          <nav className="navbar-block">
+            <div className="dropdown">
+              <button type="button" className="dropbtn dropdown-toggle">
+                Cabalgata
+              </button>
+              <div id="menu-despegable" className="drop-menu">
+                {links.cabalgata.map((link, id) => (
+                  <Link key={id} className="link-menu" to={link.url}>
+                    {link.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="dropdown">
+              <button type="button" className="dropbtn dropdown-toggle">
+                Pesca
+              </button>
+              <div id="menu-despegable" className="drop-menu">
+                {links.pesca.map((link, id) => (
+                  <Link key={id} className="link-menu" to={link.url}>
+                    {link.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="dropdown">
+              <button type="button" className="dropbtn dropdown-toggle">
+                Surfing
+              </button>
+              <div id="menu-despegable" className="drop-menu">
+                {links.surfing.map((link, id) => (
+                  <Link key={id} className="link-menu" to={link.url}>
+                    {link.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="dropdown">
+              <button type="button" className="dropbtn dropdown-toggle">
+                Tour de Bote
+              </button>
+              <div id="menu-despegable" className="drop-menu">
+                {links.tourBote.map((link, id) => (
+                  <Link key={id} className="link-menu" to={link.url}>
+                    {link.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </nav>
+          <RouterTours/>
+    </div>
   );
 };
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Carousel from './Carousel';
 import stImagenes from '../../data/imgCabalgata'
-import './Carousel.css'
 
 //Inicializamos la variables del index 0 para recorrer las imagenes
 let newIndex =0 

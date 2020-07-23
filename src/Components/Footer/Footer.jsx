@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ReactDOM from "react-dom";
-import "./Footer.css";
+import "./Footer.scss";
 
 
 let year = new Date()
@@ -84,7 +84,7 @@ const Footer = () => {
                 target="blank"
                 rel="noopener noreferrer"
               >
-                {" "}
+                {"  "}
                 Rio Claro, Pavones
               </a>
             </p>

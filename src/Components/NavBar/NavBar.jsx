@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import FormularioLogin from "../Formularios/FormularioLogin";
 import { useState } from "react";
 import FormularioRegistrarse from "../Formularios/FormularioRegistrarse";
-import "./Navbar.css";
+import "./Navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 

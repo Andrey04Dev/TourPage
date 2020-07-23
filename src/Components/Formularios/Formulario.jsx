@@ -31,7 +31,7 @@ const Formulario = () => {
   return (
     <div>
       <div className="container-center">
-        <h1>¿Te gustaría Reservar este tour?</h1>
+        <h2>¿Te gustaría Reservar este tour?</h2>
         <button
           id="btn-mostrar"
           type="button"

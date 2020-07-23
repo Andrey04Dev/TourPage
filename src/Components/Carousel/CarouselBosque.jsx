@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import stImagenes from "../../data/imgCabalgata";
 import Carousel from "./Carousel";
-import "./Carousel.css";
 
 let newIndex = 0;
 

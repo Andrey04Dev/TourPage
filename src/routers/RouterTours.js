@@ -13,7 +13,7 @@ import TourZancudo from '../pages/Tour/TourZancudo'
 
 const RouterTours = () => {
     return (
-        <div className='col-10'>
+        <div>
             <Switch>
           <Route path='/tours/cabalgata-santaClara'component={CabalgataSanta}/>
           <Route path='/tours/cabalgata-bosque'component={CabalgataBosque}/>

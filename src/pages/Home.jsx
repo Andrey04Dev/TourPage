@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from "react";
 import Video from "../Components/Video/Video";
 import Multi from "../assets/videos/Pavones.mp4";
-import CardTours from "../Components/Card/CardTours";
 import CardActividades from "../Components/Card/CardActividades";
+import CardTours from "../Components/Card/CardTours";
 
 class Home extends Component {
   render() {
@@ -10,7 +10,7 @@ class Home extends Component {
       <Fragment>
         <Video src={Multi} type="video/mp4" />
         <CardTours/>
-        <CardActividades/>
+        <CardActividades />
       </Fragment>
     );
   }

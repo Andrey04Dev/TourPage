@@ -1,0 +1,236 @@
+//VARIABLES
+$mediaQueryCelular: 320px;
+$mediaQueryTables:768px;
+$width-card: 200px;
+$width-card-tables:374px;
+$colorBoxShadow:0px 1px 3px rgba(0, 0, 0, 0.3);
+
+$numero:10px;
+
+//fUNCIONES
+@function autoincremento ($num, $num2) {
+  @return $num + $num2;
+}
+
+@function decremento ($num, $num2) {
+  @return $num - $num2;
+}
+//MIXINS
+
+body {
+  margin: 0;
+  padding: 0 0 100px 0;
+  overflow: hidden;
+}
+
+  .container-slider {
+    position: relative;
+    height: 450px;
+  
+    .container-buttons {
+      display: flex;
+  
+      .btn-left {
+        display: none;
+        background-color: transparent;
+        border: none;
+        font-size: 40px;
+        left: 0;
+        border-radius: 50%;
+        margin-top: 200px;
+        position: absolute;
+        z-index: 2;
+      }
+  
+      .btn-left:focus {
+        outline: 0 none;
+      }
+  
+      .btn-right {
+        display: none;
+        background-color: transparent;
+        border: none;
+        font-size: 40px;
+        right: 0;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 200px;
+        z-index: 2;
+      }
+  
+      .btn-right:focus {
+        outline: 0 none;
+      }
+  
+    }
+    .container-position {
+      display: flex;
+      position: relative;
+      transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      margin: 0 12px;
+  
+      .card {
+        flex: 1 1 auto;
+        border: 3px solid #f3f3f3;
+        box-shadow: $colorBoxShadow;
+        padding: 10px;
+        height: 450px;
+        margin: 0 5px;
+        width: $width-card;
+  
+        .card-img-top {
+          height: 150px;
+        }
+  
+        .card-title {
+          text-align: center;
+        }
+  
+        .card-text {
+          text-overflow: ellipsis;
+          overflow: hidden;
+          height: 170px;
+  
+          &:hover {
+            overflow-y: scroll;
+          }
+        }
+      }
+    }
+  }
+
+
+@for $i from 0 through 160{
+  $resultado : autoincremento($mediaQueryCelular,$i);
+  @media only screen and (min-width: $resultado){
+    html{
+      font-size: 12px;
+    }
+  
+    .container-slider {
+      .container-buttons {
+  
+        .btn-left,
+        .btn-right {
+          display: block;
+        }
+      }
+  
+      .container-position {
+        position: absolute;
+        margin: 0;
+  
+        .card {
+          width: decremento($resultado,$numero);
+        }
+  
+        margin-right: 30px;
+      }
+    }
+  }
+}
+@for $i from 0 to 3{
+  $resultado1 : autoincremento($mediaQueryTables, $i);
+    @media only screen and (min-width:$resultado1) {
+      html{
+        font-size: 16px;
+      }
+      .container-slider {
+        .container-buttons {
+    
+          .btn-left,
+          .btn-right {
+            display: block;
+          }
+        }
+    
+        .container-position {
+          position: absolute;
+          margin: 0;
+            .card {
+              width:autoincremento($width-card-tables,$i );
+            }
+          
+        }
+      }
+    }
+}
+
+@media only screen and (min-width:1024px){
+  html{
+      font-size: 16px;
+    }
+    .container-slider {
+      .container-buttons {
+  
+        .btn-left,
+        .btn-right {
+          display: block;
+        }
+      }
+  
+      .container-position {
+        position: absolute;
+        margin: 0;
+  
+        .card {
+          width: 246px;
+          .card-title{
+            text-align: left;
+            font-size: 6px;
+          }
+        }
+        margin-right: 30px;
+      }
+    }
+}
+
+// @media only screen and (max-width: 1224px){
+//   html{
+//       font-size: 16px;
+//     }
+//     .container-slider {
+//       .container-buttons {
+  
+//         .btn-left,
+//         .btn-right {
+//           display: none;
+//         }
+//       }
+  
+//       .container-position {
+//         position: relative;
+//         margin: 0;
+  
+//         .card {
+//           width: $width-card;
+//           .card-title{
+//             font-size: 18px;
+//           }
+//         }
+//         }
+//       }
+//     }
+@media only screen and (min-width: 1350px){
+  html{
+      font-size: 16px;
+    }
+    .container-slider {
+      .container-buttons {
+  
+        .btn-left,
+        .btn-right {
+          display: none;
+        }
+      }
+  
+      .container-position {
+        position: relative;
+        margin: 0 20px;
+  
+        .card {
+          width: $width-card;
+        }
+      }
+    }
+}

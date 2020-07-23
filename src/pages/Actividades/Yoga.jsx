@@ -2,7 +2,7 @@ import React from 'react'
 
 const Yoga = () => {
     return (
-        <div className='container'>
+        <div className='container mt-3'>
             <h3 className="text-center"> Activida de Yoga</h3>
             <p>Necesito saber que van a poner aqui</p><br/>
             <h1>Propuestas</h1>
