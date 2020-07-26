@@ -11,68 +11,6 @@ body {
   bottom: 0;
   left: 0;
 }
-  //Menu de Tours Inicio
-.container-nav {
-  display: flex;
-  .navbar-block {
-    flex: 20%;
-    position: relative;
-    height: 100%;
-    .menu {
-      list-style: none;
-      margin-bottom: 0;
-      .drop-menu {
-        list-style: none;
-        display: none;
-        background-color: transparent;
-        margin-left: -60px;
-       
-        .drop-menu li{
-          margin-right: -20px;
-        }
-        .link-menu {
-          color: black;
-          padding: 8px 10px;
-          text-decoration: none;
-          display: block;
-          position: relative;
-          text-align: left;
-          margin-left: 19px;
-  
-          &:hover {
-            background-color: whitesmoke;
-            text-decoration: none;
-            color: black;
-            border-left: 5px solid #61dafb;
-            height: auto;
-            font-weight: bold;
-          }
-        }
-      }
-      .dropbtn {
-        background-color: transparent;
-        padding: 10px;
-        cursor: pointer;
-        border: none;
-        width: 100%;
-        font-weight: bold;
-        position: relative;
-        text-align: left;
-        .icon{
-          float: right;
-        }
-        &:focus {
-          outline: none;
-        }
-        .drop-menu{
-          color: black;
-          font-weight: normal;
-        }
-      }
-    }
-  }
-}
-  //Menu de Tours FIN
 
   //Menu de actividades INICIO
 .navbar-act {
@@ -85,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 auto;
+    flex: 1;
     text-decoration: none;
     transition: flex-grow 1s ease;
     position: relative;
@@ -115,69 +53,6 @@ body {
 }
 //Menu de Actividades FINAL
 @media  only screen and (min-width: 320px) and (max-width: 480px) {
-  //Menu de Tours INICIO
-  .container-nav {
-    display: flex;
-    flex-flow: column wrap;
-    .navbar-block {
-      flex: 100%;
-      position: relative;
-      height: 100%;
-      .menu {
-        list-style: none;
-        margin-bottom: 0;
-        .drop-menu {
-          list-style: none;
-          display: none;
-          background-color: transparent;
-          margin-left: -60px;
-         
-          .drop-menu li{
-            margin-right: -20px;
-          }
-          .link-menu {
-            color: black;
-            padding: 8px 10px;
-            text-decoration: none;
-            display: block;
-            position: relative;
-            text-align: left;
-            margin-left: 19px;
-    
-            &:hover {
-              background-color: whitesmoke;
-              text-decoration: none;
-              color: black;
-              border-left: 5px solid #61dafb;
-              height: auto;
-              font-weight: bold;
-            }
-          }
-        }
-        .dropbtn {
-          background-color: transparent;
-          padding: 10px;
-          cursor: pointer;
-          border: none;
-          width: 100%;
-          font-weight: bold;
-          position: relative;
-          text-align: left;
-          .icon{
-            float: right;
-          }
-          &:focus {
-            outline: none;
-          }
-          .drop-menu{
-            color: black;
-            font-weight: normal;
-          }
-        }
-      }
-    }
-  }
-  //Menu de Tours FIN
 
   //Menu de Actividades INICIO
 .navbar-act{
@@ -211,68 +86,68 @@ body {
   //Menu de Actividades FIN
 }
 
-@media  only screen and (min-width: 768px) and (max-width: 1024px) {
-  .container-nav {
-    display: flex;
-    .navbar-block {
-      flex: 30%;
-      position: relative;
-      height: 100%;
-      .menu {
-        list-style: none;
-        margin-bottom: 0;
-        .drop-menu {
-          list-style: none;
-          display: none;
-          background-color: transparent;
-          margin-left: -60px;
+// @media  only screen and (min-width: 768px) and (max-width: 1024px) {
+//   .container-nav {
+//     display: flex;
+//     .navbar-block {
+//       flex: 30%;
+//       position: relative;
+//       height: 100%;
+//       .menu {
+//         list-style: none;
+//         margin-bottom: 0;
+//         .drop-menu {
+//           list-style: none;
+//           display: none;
+//           background-color: transparent;
+//           margin-left: -60px;
          
-          .drop-menu li{
-            margin-right: -20px;
-          }
-          .link-menu {
-            color: black;
-            padding: 8px 10px;
-            text-decoration: none;
-            display: block;
-            position: relative;
-            text-align: left;
-            margin-left: 19px;
+//           .drop-menu li{
+//             margin-right: -20px;
+//           }
+//           .link-menu {
+//             color: black;
+//             padding: 8px 10px;
+//             text-decoration: none;
+//             display: block;
+//             position: relative;
+//             text-align: left;
+//             margin-left: 19px;
     
-            &:hover {
-              background-color: whitesmoke;
-              text-decoration: none;
-              color: black;
-              border-left: 5px solid #61dafb;
-              height: auto;
-              font-weight: bold;
-            }
-          }
-        }
-        .dropbtn {
-          background-color: transparent;
-          padding: 10px;
-          cursor: pointer;
-          border: none;
-          width: 100%;
-          font-weight: bold;
-          position: relative;
-          text-align: left;
-          .icon{
-            float: right;
-          }
-          &:focus {
-            outline: none;
-          }
-          .drop-menu{
-            color: black;
-            font-weight: normal;
-          }
-        }
-      }
-    }
-  }
-}
+//             &:hover {
+//               background-color: whitesmoke;
+//               text-decoration: none;
+//               color: black;
+//               border-left: 5px solid #61dafb;
+//               height: auto;
+//               font-weight: bold;
+//             }
+//           }
+//         }
+//         .dropbtn {
+//           background-color: transparent;
+//           padding: 10px;
+//           cursor: pointer;
+//           border: none;
+//           width: 100%;
+//           font-weight: bold;
+//           position: relative;
+//           text-align: left;
+//           .icon{
+//             float: right;
+//           }
+//           &:focus {
+//             outline: none;
+//           }
+//           .drop-menu{
+//             color: black;
+//             font-weight: normal;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 
 

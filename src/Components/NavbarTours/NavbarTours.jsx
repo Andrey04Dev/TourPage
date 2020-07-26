@@ -1,34 +1,34 @@
 import React, { useEffect } from "react";
 import links from "../../data/links";
 import { Link } from "react-router-dom";
-import "./Navbar.scss";
 import RouterTours from "../../routers/RouterTours";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import $ from "jquery";
+import "./NavbarTours.scss";
 
 const mostrarMenu = () => {
-  $(document).ready(function (){
+  $(document).ready(function () {
     //Aqui tomamnos todos lo elemento de la clase menu que tenga un LI y este tenga un elemtno UL
     //se van abrir
-    $('.menu .dropbtn:has(.drop-menu)').click(function(e){
-      e.preventDefault();
-      if($(this).hasClass('activado')){//Si el elemento tiene la clase activado
-        $(this).removeClass('activado')// se quita la clase
-        $(this).children('.drop-menu').slideUp()//
-      }else{
-        $('.menu .dropbtn .drop-menu').slideUp();//Ocultamos los otros menus
-        $('.menu .dropbtn').removeClass('activado')
-        $(this).addClass('activado')
-        $(this).children('.drop-menu').slideDown()
+    $(".menu .dropbtn:has(.drop-menu)").click(function () {
+      if ($(this).hasClass("activado")) {
+        //Si el elemento tiene la clase activado
+        $(this).removeClass("activado"); // se quita la clase
+        $(this).children(".drop-menu").slideUp(300); //
+      } else {
+        $(".menu .dropbtn .drop-menu").slideUp(300); //Ocultamos los otros menus
+        $(".menu .dropbtn").removeClass("activado");
+        $(this).addClass("activado");
+        $(this).children(".drop-menu").slideDown(300);
       }
-    })
+    });
 
-    $(window).resize(function(){
-      if($(document).width() > 480){
-        $('.menu .drop-menu').css({'display': 'none'})
+    $(window).resize(function () {
+      if ($(document).width() > 480) {
+        $(".menu .drop-menu").css({ display: "none" });
       }
-    })
-  })
+    });
+  });
 };
 
 const NavbarTours = () => {
@@ -99,7 +99,9 @@ const NavbarTours = () => {
           </li>
         </ul>
       </nav>
-      <RouterTours />
+      <div className="container-info">
+        <RouterTours />
+      </div>
     </div>
   );
 };

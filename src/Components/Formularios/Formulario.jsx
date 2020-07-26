@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import $ from 'jquery'
 import "./Formulario.css";
 
 const Formulario = () => {
@@ -24,8 +25,9 @@ const Formulario = () => {
     e.target.reset();
   };
   const mostrarFormulario = () => {
-    let formu = document.querySelector(".formulario");
-    formu.classList.toggle("active-form");
+    $(document).ready(function(){
+      $('.formulario').toggleClass('active-form')
+    })
   };
 
   return (
