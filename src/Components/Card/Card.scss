@@ -177,7 +177,7 @@ body {
           width: 246px;
           .card-title{
             text-align: left;
-            font-size: 6px;
+            font-size: 16px;
           }
         }
         margin-right: 30px;
@@ -230,6 +230,10 @@ body {
   
         .card {
           width: $width-card;
+          .card-title{
+            text-align: center;
+            font-size: 19px;
+          }
         }
       }
     }

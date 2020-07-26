@@ -28,6 +28,7 @@ Modal.setAppElement("#modal-login");
 const FormularioLogin = (props) => {
   const { register, errors, handleSubmit } = useForm();
   const [user, setUser] = useState([]);
+  // const [datos,setDatos] = useState([])
 
   const onSubmit = (data, e) => {
     //Seteamos los usuarios para guardarlo  y despues comprobarlo
@@ -37,6 +38,11 @@ const FormularioLogin = (props) => {
   };
   //Llamado de funciones con useEffect de Hooks
   useEffect(() => {
+    // let result = localStorage.getItem('Nombres')
+
+    // if(user.usuario === result.email && user.password === result.password){
+    //   alert('Ingreso BIEN!')
+    // }
     // ocultar()
   });
   return ReactDOM.createPortal(

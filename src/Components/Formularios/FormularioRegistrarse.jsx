@@ -22,7 +22,6 @@ const customStyles = {
     backgroundColor: "rgba(0,0,0,0.8)",
   },
 };
-
 //Para que abra en el modal y se quite el error de redenrización
 Modal.setAppElement("#modal-registrar");
 const FormularioRegistrarse = (props) => {
@@ -33,6 +32,7 @@ const FormularioRegistrarse = (props) => {
   const onSubmit = (data, e) => {
     //Seteamos los usuarios para guardarlo  y despues comprobarlo
     setUser([...user, data]);
+    localStorage.setItem('Nombres',JSON.stringify(data))
     e.target.reset();
   };
 
@@ -199,7 +199,7 @@ const FormularioRegistrarse = (props) => {
                     {errors?.repetPassword?.message}
                   </span>
                   <label htmlFor="pais">País:</label>
-                  <select name="pais" id="pais"></select>
+                  {/* <select name="pais" id="pais"></select> */}
                 </div>
               </div>
               <div className="modal-footer">
