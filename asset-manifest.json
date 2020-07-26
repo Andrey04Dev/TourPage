@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/TourPage/static/css/main.7cc7657b.chunk.css",
-    "main.js": "/TourPage/static/js/main.0c07abcc.chunk.js",
-    "main.js.map": "/TourPage/static/js/main.0c07abcc.chunk.js.map",
+    "main.css": "/TourPage/static/css/main.55e10dd8.chunk.css",
+    "main.js": "/TourPage/static/js/main.56fbd99a.chunk.js",
+    "main.js.map": "/TourPage/static/js/main.56fbd99a.chunk.js.map",
     "runtime-main.js": "/TourPage/static/js/runtime-main.a385860d.js",
     "runtime-main.js.map": "/TourPage/static/js/runtime-main.a385860d.js.map",
     "static/css/2.4393531f.chunk.css": "/TourPage/static/css/2.4393531f.chunk.css",
-    "static/js/2.18016bd9.chunk.js": "/TourPage/static/js/2.18016bd9.chunk.js",
-    "static/js/2.18016bd9.chunk.js.map": "/TourPage/static/js/2.18016bd9.chunk.js.map",
+    "static/js/2.47cb378a.chunk.js": "/TourPage/static/js/2.47cb378a.chunk.js",
+    "static/js/2.47cb378a.chunk.js.map": "/TourPage/static/js/2.47cb378a.chunk.js.map",
     "index.html": "/TourPage/index.html",
-    "precache-manifest.ead7d7efee5b4f659a6793ca77a8b328.js": "/TourPage/precache-manifest.ead7d7efee5b4f659a6793ca77a8b328.js",
+    "precache-manifest.8ff8e68a3a83135d0feac93d4364f553.js": "/TourPage/precache-manifest.8ff8e68a3a83135d0feac93d4364f553.js",
     "service-worker.js": "/TourPage/service-worker.js",
     "static/css/2.4393531f.chunk.css.map": "/TourPage/static/css/2.4393531f.chunk.css.map",
-    "static/css/main.7cc7657b.chunk.css.map": "/TourPage/static/css/main.7cc7657b.chunk.css.map",
-    "static/js/2.18016bd9.chunk.js.LICENSE.txt": "/TourPage/static/js/2.18016bd9.chunk.js.LICENSE.txt",
+    "static/css/main.55e10dd8.chunk.css.map": "/TourPage/static/css/main.55e10dd8.chunk.css.map",
+    "static/js/2.47cb378a.chunk.js.LICENSE.txt": "/TourPage/static/js/2.47cb378a.chunk.js.LICENSE.txt",
     "static/media/Pavones.mp4": "/TourPage/static/media/Pavones.18dfd7f5.mp4",
     "static/media/artesanal1.jpeg": "/TourPage/static/media/artesanal1.a677d77d.jpeg",
     "static/media/artesanal2.jpeg": "/TourPage/static/media/artesanal2.d5f64741.jpeg",
@@ -91,8 +91,8 @@
   "entrypoints": [
     "static/js/runtime-main.a385860d.js",
     "static/css/2.4393531f.chunk.css",
-    "static/js/2.18016bd9.chunk.js",
-    "static/css/main.7cc7657b.chunk.css",
-    "static/js/main.0c07abcc.chunk.js"
+    "static/js/2.47cb378a.chunk.js",
+    "static/css/main.55e10dd8.chunk.css",
+    "static/js/main.56fbd99a.chunk.js"
   ]
 }
