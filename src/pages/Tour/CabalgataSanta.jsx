@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import CarouselCabalgata from "../../Components/Carousel/CarouselSantaClara";
 import Encabezado from "../../Components/Encabezado/Encabezados";
 import Formulario from "../../Components/Formularios/Formulario";
+import FormularioComentario from "../../Components/Formularios/FormularioComentario";
 
 const CabalgataSanta = () => {
   
@@ -15,6 +16,7 @@ const CabalgataSanta = () => {
       />
       <CarouselCabalgata />
       <Formulario />
+      <FormularioComentario/>
     </div>
   );
 };

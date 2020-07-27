@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import $ from 'jquery'
-import "./Formulario.css";
+import './Formulario.scss'
 
 const Formulario = () => {
   const { register, errors, handleSubmit } = useForm();
@@ -199,7 +199,7 @@ const Formulario = () => {
               </span>
             </div>
           </div>
-          <button className="btn btn-primary" type="submit">
+          <button className="btn btn-primary float-right mt-2" type="submit">
             Reservar
           </button>
         </form>

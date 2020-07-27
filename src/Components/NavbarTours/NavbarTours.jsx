@@ -14,7 +14,7 @@ const mostrarMenu = () => {
       if ($(this).hasClass("activado")) {
         //Si el elemento tiene la clase activado
         $(this).removeClass("activado"); // se quita la clase
-        $(this).children(".drop-menu").slideUp(300); //
+        $(this).children(".drop-menu").slideUp(300); //El hijo de elemento que contiene la clase .drop-menu se va cerrar.
       } else {
         $(".menu .dropbtn .drop-menu").slideUp(300); //Ocultamos los otros menus
         $(".menu .dropbtn").removeClass("activado");

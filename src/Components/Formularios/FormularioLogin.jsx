@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useForm } from "react-hook-form";
 import Modal from 'react-modal'
-import './Formulario.css'
 //Estilos de modal
 const customStyles = {
   content: {

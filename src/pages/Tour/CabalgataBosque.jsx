@@ -2,6 +2,7 @@ import React from "react";
 import Encabezados from "../../Components/Encabezado/Encabezados";
 import CarouselBosque from "../../Components/Carousel/CarouselBosque";
 import Formulario from "../../Components/Formularios/Formulario";
+import FormularioComentario from "../../Components/Formularios/FormularioComentario";
 
 const CabalgataBosque = () => {
   return (
@@ -12,6 +13,8 @@ const CabalgataBosque = () => {
       />
       <CarouselBosque />
       <Formulario />
+
+      <FormularioComentario/>
     </div>
   );
 };

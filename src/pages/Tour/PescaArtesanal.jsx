@@ -2,6 +2,7 @@ import React from "react";
 import Encabezados from "../../Components/Encabezado/Encabezados";
 import CarouselArtesanal from "../../Components/Carousel/CarouselArtesanal";
 import Formulario from "../../Components/Formularios/Formulario";
+import FormularioComentario from "../../Components/Formularios/FormularioComentario";
 
 const PescaArtesanal = () => {
   return (
@@ -12,6 +13,7 @@ const PescaArtesanal = () => {
       />
       <CarouselArtesanal />
       <Formulario />
+      <FormularioComentario/>
     </div>
   );
 };

@@ -66,11 +66,11 @@ const FormularioContacto = () => {
             <span className="text-danger d-block mb-2">
               {errors?.descripcion?.message}
             </span>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary float-right">
               Enviar
             </button>
           </form>
-          <div className="container">
+          <div className="container mt-5">
             <h5>La informacion que le llegaria al correo a ustedes:</h5>
             {informes.map((informe) => (
               <p>
