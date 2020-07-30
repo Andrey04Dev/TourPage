@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "906dc567e4052ed0250dad4cfd828b1a",
+    "revision": "830cd39160bad53d32cc7020b3b05591",
     "url": "/TourPage/index.html"
   },
   {
-    "revision": "7f190cd6997e0a70c251",
+    "revision": "aea8957f7e86fec9e4de",
     "url": "/TourPage/static/css/2.4393531f.chunk.css"
   },
   {
-    "revision": "8d0d5a03862bbc51b9d4",
-    "url": "/TourPage/static/css/main.6c80ea20.chunk.css"
+    "revision": "753252996736df591de6",
+    "url": "/TourPage/static/css/main.24713252.chunk.css"
   },
   {
-    "revision": "7f190cd6997e0a70c251",
-    "url": "/TourPage/static/js/2.06beb6c4.chunk.js"
+    "revision": "aea8957f7e86fec9e4de",
+    "url": "/TourPage/static/js/2.f36b18f0.chunk.js"
   },
   {
     "revision": "328d318b02b03c8eb87bd0adbe05a99e",
-    "url": "/TourPage/static/js/2.06beb6c4.chunk.js.LICENSE.txt"
+    "url": "/TourPage/static/js/2.f36b18f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d0d5a03862bbc51b9d4",
-    "url": "/TourPage/static/js/main.54d7d58a.chunk.js"
+    "revision": "753252996736df591de6",
+    "url": "/TourPage/static/js/main.19c632f0.chunk.js"
   },
   {
     "revision": "e4b36c88e42114b9626b",
@@ -222,6 +222,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "afa5d9bca7feb3e80d00ca4713748c35",
     "url": "/TourPage/static/media/preparar.afa5d9bc.svg"
+  },
+  {
+    "revision": "8e346dec3a1a82109f4ae3ce33fa9400",
+    "url": "/TourPage/static/media/reactions_angry.8e346dec.png"
+  },
+  {
+    "revision": "26f66a392b639468df40b867da74bf2d",
+    "url": "/TourPage/static/media/reactions_haha.26f66a39.png"
+  },
+  {
+    "revision": "c667549a4c9a753921770c4b6ccc036f",
+    "url": "/TourPage/static/media/reactions_like.c667549a.png"
+  },
+  {
+    "revision": "d3e8698e25a2a0ddb862480130810c3c",
+    "url": "/TourPage/static/media/reactions_love.d3e8698e.png"
+  },
+  {
+    "revision": "4ae2ad57c752f71dc7089c4d4dde63f2",
+    "url": "/TourPage/static/media/reactions_sad.4ae2ad57.png"
+  },
+  {
+    "revision": "0d2478d73b949c67d7e4adb498170781",
+    "url": "/TourPage/static/media/reactions_wow.0d2478d7.png"
   },
   {
     "revision": "a92a6663b1ead1c4ba9989c3996d8825",

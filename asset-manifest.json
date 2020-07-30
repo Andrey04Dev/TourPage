@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/TourPage/static/css/main.6c80ea20.chunk.css",
-    "main.js": "/TourPage/static/js/main.54d7d58a.chunk.js",
-    "main.js.map": "/TourPage/static/js/main.54d7d58a.chunk.js.map",
+    "main.css": "/TourPage/static/css/main.24713252.chunk.css",
+    "main.js": "/TourPage/static/js/main.19c632f0.chunk.js",
+    "main.js.map": "/TourPage/static/js/main.19c632f0.chunk.js.map",
     "runtime-main.js": "/TourPage/static/js/runtime-main.a385860d.js",
     "runtime-main.js.map": "/TourPage/static/js/runtime-main.a385860d.js.map",
     "static/css/2.4393531f.chunk.css": "/TourPage/static/css/2.4393531f.chunk.css",
-    "static/js/2.06beb6c4.chunk.js": "/TourPage/static/js/2.06beb6c4.chunk.js",
-    "static/js/2.06beb6c4.chunk.js.map": "/TourPage/static/js/2.06beb6c4.chunk.js.map",
+    "static/js/2.f36b18f0.chunk.js": "/TourPage/static/js/2.f36b18f0.chunk.js",
+    "static/js/2.f36b18f0.chunk.js.map": "/TourPage/static/js/2.f36b18f0.chunk.js.map",
     "index.html": "/TourPage/index.html",
-    "precache-manifest.755404f6f7ec31b672f51470e33680c9.js": "/TourPage/precache-manifest.755404f6f7ec31b672f51470e33680c9.js",
+    "precache-manifest.3de3f56a7287deb41034b9e19f8d4401.js": "/TourPage/precache-manifest.3de3f56a7287deb41034b9e19f8d4401.js",
     "service-worker.js": "/TourPage/service-worker.js",
     "static/css/2.4393531f.chunk.css.map": "/TourPage/static/css/2.4393531f.chunk.css.map",
-    "static/css/main.6c80ea20.chunk.css.map": "/TourPage/static/css/main.6c80ea20.chunk.css.map",
-    "static/js/2.06beb6c4.chunk.js.LICENSE.txt": "/TourPage/static/js/2.06beb6c4.chunk.js.LICENSE.txt",
+    "static/css/main.24713252.chunk.css.map": "/TourPage/static/css/main.24713252.chunk.css.map",
+    "static/js/2.f36b18f0.chunk.js.LICENSE.txt": "/TourPage/static/js/2.f36b18f0.chunk.js.LICENSE.txt",
     "static/media/Pavones.mp4": "/TourPage/static/media/Pavones.18dfd7f5.mp4",
     "static/media/artesanal1.jpeg": "/TourPage/static/media/artesanal1.a677d77d.jpeg",
     "static/media/artesanal2.jpeg": "/TourPage/static/media/artesanal2.d5f64741.jpeg",
@@ -63,6 +63,7 @@
     "static/media/playa4.jpg": "/TourPage/static/media/playa4.66b670ad.jpg",
     "static/media/playa5.png": "/TourPage/static/media/playa5.b963cef1.png",
     "static/media/preparar.svg": "/TourPage/static/media/preparar.afa5d9bc.svg",
+    "static/media/IconsShow.scss": "/TourPage/static/media/reactions_wow.0d2478d7.png",
     "static/media/santa1.jpg": "/TourPage/static/media/santa1.a92a6663.jpg",
     "static/media/santa2.jpg": "/TourPage/static/media/santa2.d8cf67e7.jpg",
     "static/media/santa3.jpg": "/TourPage/static/media/santa3.3e255846.jpg",
@@ -91,8 +92,8 @@
   "entrypoints": [
     "static/js/runtime-main.a385860d.js",
     "static/css/2.4393531f.chunk.css",
-    "static/js/2.06beb6c4.chunk.js",
-    "static/css/main.6c80ea20.chunk.css",
-    "static/js/main.54d7d58a.chunk.js"
+    "static/js/2.f36b18f0.chunk.js",
+    "static/css/main.24713252.chunk.css",
+    "static/js/main.19c632f0.chunk.js"
   ]
 }
