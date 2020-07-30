@@ -21,7 +21,7 @@ export default class CarouselBosque extends Component {
       if (newIndex > stImagenes.bosque.length - 1) newIndex = 0;
     }, 3000);
   };
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.mostrar();
   }
 

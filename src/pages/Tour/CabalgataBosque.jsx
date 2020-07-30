@@ -13,7 +13,6 @@ const CabalgataBosque = () => {
       />
       <CarouselBosque />
       <Formulario />
-
       <FormularioComentario/>
     </div>
   );

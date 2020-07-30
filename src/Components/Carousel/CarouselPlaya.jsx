@@ -21,7 +21,7 @@ export default class CarouselPlaya extends Component {
     }, 3000);
   };
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.mostrar();
   }
 

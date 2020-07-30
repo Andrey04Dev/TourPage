@@ -1,0 +1,200 @@
+.container-icons {
+    display: flex;
+    max-width: 140px;
+    height: 30px;
+    padding: 5px 0;
+    .icons-0 {
+        display: none;
+        background: url("../../assets//iconos/reactions_like.png") no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 2px;
+        position: relative;
+        width:20px;
+        height: 20px;
+    }
+
+    .icons-1 {
+        display: none;
+        background: url("../../assets//iconos/reactions_haha.png") no-repeat ;
+        background-position: center;
+        background-size: cover;
+        margin: 0 2px;
+        position: relative;
+        width:20px;
+        height: 20px;
+    }
+
+    .icons-2 {
+        display: none;
+        background: url("../../assets//iconos/reactions_love.png") no-repeat ;
+        background-position: center;
+        background-size: cover;
+        margin: 0 2px;
+        position: relative;
+        width:20px;
+        height: 20px;
+    }
+    .icons-3 {
+        display: none;
+        background: url("../../assets//iconos/reactions_angry.png") no-repeat ;
+        background-position: center;
+        background-size: cover;
+        margin: 0 2px;
+        position: relative;
+        width:20px;
+        height: 20px;
+    }
+    .icons-4 {
+        display: none;
+        background: url("../../assets//iconos/reactions_sad.png") no-repeat ;
+        background-position: center;
+        background-size: cover;
+        margin: 0 2px;
+        position: relative;
+        width:20px;
+        height: 20px;
+    }
+    .icons-5 {
+        display: none;
+        background: url("../../assets//iconos/reactions_wow.png") no-repeat ;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        margin: 0 2px;
+        position: relative;
+        width:20px;
+        height: 20px;
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+    .container-icons {
+        display: flex;
+        max-width: 90px;
+        padding: 5px 0;
+        
+        .icons-0 {
+            background: url("../../assets//iconos/reactions_like.png") no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:10px;
+            height:10px;
+        }
+
+        .icons-1 {
+            background: url("../../assets//iconos/reactions_haha.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:10px;
+            height:10px;
+        }
+
+        .icons-2 {
+            background: url("../../assets//iconos/reactions_love.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:10px;
+            height:10px;
+        }
+        .icons-3 {
+            background: url("../../assets//iconos/reactions_angry.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:10px;
+            height:10px;
+        }
+        .icons-4 {
+            background: url("../../assets//iconos/reactions_sad.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:10px;
+            height:10px;
+        }
+        .icons-5 {
+            background: url("../../assets//iconos/reactions_wow.png") no-repeat ;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:10px;
+            height:10px;
+        }
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .container-icons {
+        display: flex;
+        max-width: 110px;
+        padding: 5px 0;
+        .icons-0 {
+            background: url("../../assets//iconos/reactions_like.png") no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:15px;
+            height:15px;
+        }
+
+        .icons-1 {
+            background: url("../../assets//iconos/reactions_haha.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:15px;
+            height:15px;
+        }
+
+        .icons-2 {
+            background: url("../../assets//iconos/reactions_love.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:15px;
+            height:15px;
+        }
+        .icons-3 {
+            background: url("../../assets//iconos/reactions_angry.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:15px;
+            height:15px;
+        }
+        .icons-4 {
+            background: url("../../assets//iconos/reactions_sad.png") no-repeat ;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:15px;
+            height:15px;
+        }
+        .icons-5 {
+            background: url("../../assets//iconos/reactions_wow.png") no-repeat ;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            margin: 0 2px;
+            position: relative;
+            width:15px;
+            height:15px;
+        }
+    }
+}

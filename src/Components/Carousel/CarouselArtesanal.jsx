@@ -30,7 +30,7 @@ export default class CarouselArtesanal extends Component {
     this.mostrar();
   }
   //Limpiamos el método interval en el DOM
-  componentWillUnmount() {
+  UNSAFE_componentWillMount() {
     clearInterval(this.interval);
   }
   //Función para correr un imagen hacia atrás cuando es necesaria

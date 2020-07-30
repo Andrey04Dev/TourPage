@@ -1,11 +1,44 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./MostrarComentrario.scss";
+import $ from "jquery";
+import IconsShow from "../IconsShow/IconsShow";
 
+const appear = () => {
+  if ($(`.icons-0`).click()) {
+    $(`.media-body .container-icons .icons-0`).css('display','block')
+  }
+};
+const appear1 = () => {
+  if ($(`.icons-1`).click()) {
+    $(`.media-body .container-icons .icons-1`).css('display','block')
+  }
+};
+const appear2 = () => {
+  if ($(`.icons-2`).click()) {
+    $(`.media-body .container-icons .icons-2`).css('display','block')
+  }
+};
+const appear3 = () => {
+  if ($(`.icons-3`).click()) {
+    $(`.media-body .container-icons .icons-3`).css('display','block')
+  }
+};
+const appear4 = () => {
+  if ($(`.icons-4`).click()) {
+    $(`.media-body .container-icons .icons-4`).css('display','block')
+  }
+};
+const appear5 = () => {
+  if ($(`.icons-5`).click()) {
+    $(`.media-body .container-icons .icons-5`).css('display','block')
+  }
+};
 const MostrarComentario = (props) => {
-  const { imagen, nombre, comentario,handleFormulario } = props;
+  const { imagen, nombre, comentario } = props;
   return (
-    <Fragment>
+    <div className='container-fluid'>
       <li className="media">
         <img
           src={imagen}
@@ -15,16 +48,49 @@ const MostrarComentario = (props) => {
         <div className="media-body">
           <h5 className="mt-0 mb-1">{nombre}</h5>
           <div className="container text-justify">{comentario}</div>
-          {/* <button type="submit" onClick={handleFormulario}>Responder</button> */}
+          <IconsShow/>
+          <div className="container-left">
+            <button className="btn-comment">
+              Reaccionar
+              <span className="icons-btn">
+                <i className='icons-0' onClick={appear}/>
+                <i className='icons-1' onClick={appear1}/>
+                <i className='icons-2' onClick={appear2}/>
+                <i className='icons-3' onClick={appear3}/>
+                <i className='icons-4' onClick={appear4}/>
+                <i className='icons-5' onClick={appear5}/>
+
+                {/* <FontAwesomeIcon
+                  className="icons-0"
+                  onClick={appear}
+                  icon={["fas", "angry"]}
+                />
+                <FontAwesomeIcon
+                  className="icons-1"
+                  onClick={appear1}
+                  icon={["fas", "heart"]}
+                />
+                <FontAwesomeIcon
+                  className="icons-2"
+                  onClick={appear2}
+                  icon={["fas", "grin-hearts"]}
+                />
+                <FontAwesomeIcon
+                  className="icons-3"
+                  onClick={appear3}
+                  icon={["fas", "thumbs-up"]}
+                /> */}
+              </span>
+            </button>
+          </div>
         </div>
       </li>
-    </Fragment>
+    </div>
   );
 };
 MostrarComentario.propTypes = {
   imagen: PropTypes.string.isRequired,
   nombre: PropTypes.string.isRequired,
   comentario: PropTypes.string.isRequired,
-  handleFormulario: PropTypes.func.isRequired
 };
 export default MostrarComentario;

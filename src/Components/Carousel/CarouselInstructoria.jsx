@@ -26,7 +26,7 @@ export default class CarouselInstructoria extends Component {
   };
 
   //Hacemos que el carousel se mueva dinámicamente.
-  componentDidMount() {
+  UNSAFE_componentWillMount() {
     this.mostrar();
   }
   //Limpiamos el método interval en el DOM

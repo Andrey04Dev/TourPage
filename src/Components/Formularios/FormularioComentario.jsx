@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { useForm } from 'react-hook-form'
 import { useState } from 'react'
-import $ from 'jquery'
 import MostrarComentario from '../MostrarComentario/MostrarComentario'
 import imagen from '../../assets/img/Tours/pesca.jpg'
 import './Formulario.scss'
@@ -17,11 +16,12 @@ const FormularioComentario = () => {
         e.target.reset()
     }
 
-    const mostrarForm =()=>{
-        $(document).ready(()=>{
-            $('.formulario').show()
-        })
-    }
+    // const mostrarForm =()=>{
+    //     $(document).ready(()=>{
+    //         $('.formulario').show()
+    //     })
+    // }
+    
     return (
         <Fragment>
         <div className='container-coment container-fluid'>
@@ -44,7 +44,7 @@ const FormularioComentario = () => {
         <ul className="list-unstyled">
             {
                 comentarios.map((comentario,id) =>(
-                    <MostrarComentario key={id} imagen={imagen} nombre='Nombre de la persona' comentario={comentario.comentario} handleFormulario={mostrarForm}/>
+                    <MostrarComentario key={id} imagen={imagen} nombre='Nombre de la persona' comentario={comentario.comentario}/>
                 ))
             }
             
