@@ -1,6 +1,5 @@
-import React, { Fragment } from "react";
+import React from "react";
 import PropTypes from "prop-types";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./MostrarComentrario.scss";
 import $ from "jquery";
 import IconsShow from "../IconsShow/IconsShow";
@@ -59,27 +58,6 @@ const MostrarComentario = (props) => {
                 <i className='icons-3' onClick={appear3}/>
                 <i className='icons-4' onClick={appear4}/>
                 <i className='icons-5' onClick={appear5}/>
-
-                {/* <FontAwesomeIcon
-                  className="icons-0"
-                  onClick={appear}
-                  icon={["fas", "angry"]}
-                />
-                <FontAwesomeIcon
-                  className="icons-1"
-                  onClick={appear1}
-                  icon={["fas", "heart"]}
-                />
-                <FontAwesomeIcon
-                  className="icons-2"
-                  onClick={appear2}
-                  icon={["fas", "grin-hearts"]}
-                />
-                <FontAwesomeIcon
-                  className="icons-3"
-                  onClick={appear3}
-                  icon={["fas", "thumbs-up"]}
-                /> */}
               </span>
             </button>
           </div>
